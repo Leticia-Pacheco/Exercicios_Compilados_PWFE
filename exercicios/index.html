@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>
+            Funções
+        </title>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <header class="centerObject">
+            <h1>Funções</h1>
+        </header>
+
+        <form name="frmFuncoes" method="get" action="index.html">
+            <div id="base" class="centerObject">
+                <!-- Primeira função -->
+                <div id="primeiraFuncao">
+                    <h2>Quadrado de um número</h2>
+
+                    <div id="entradaNumeroUm" class="centerObject">
+                        <p>
+                           Digite o número para calcular: <input id="nmrQuadrado" type="text" name="nmrQuadrado" size="5"> 
+                        </p>
+
+                        <input id="btnCalcular" type="button" name="btnCalcular" value="Calcular">
+                    </div>
+
+                    <div id="msgResultadoUm" class="centerObject fonteResultados">
+                        Resultado: 
+                    </div>
+
+                    <div id="resultadoUm" class="centerObject fonteResultados">
+
+                    </div>
+                </div>
+
+                <!-- Segunda função -->
+                <div id="segundaFuncao">
+                    <h2>Maior número</h2>
+
+                    <div id="entradaNumerosDois" class="centerObject">
+                        <p>
+                           Digite o primeiro número: <input id="nmrUm" type="text" value="" name="nmrUm" size="5"> 
+                        </p>
+
+                        <p>
+                            Digite o segundo número: <input id="nmrDois" type="text" value="" name="nmrDois" size="5"> 
+                         </p>
+
+                         <input id="cliqueCalcular" type="button" name="cliqueCalcular" value="Clique aqui!">
+                    </div>
+
+                    <div id="msgResultadoDois" class="centerObject fonteResultados">
+                        O maior número é:
+                    </div>
+                    
+                    <div id="resultadoDois" class="centerObject fonteResultados">
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Terceira função -->
+                <div id="terceiraFuncao">
+                    <h2>Nome e Estado</h2>
+
+                    <p id="entradaNomeUm" class="centerObject">Escreva seu nome:
+                        <input id="nomeUm" type="text" name="nomeUm" placeholder="Digite seu nome">
+                    </p>
+
+                    <div class="opcoes">
+                        <span>Estados da região sudeste:</span><br>
+
+                        <input class="estado" type="radio" name="rdoEstado" value="Espírito Santo">Espírito Santo
+                        <br>
+                        <input class="estado" type="radio" name="rdoEstado" value="Minas Gerais">Minas Gerais
+                        <br>
+                        <input class="estado" type="radio" name="rdoEstado" value="Rio de Janeiro">Rio de Janeiro
+                        <br>
+                        <input class="estado" type="radio" name="rdoEstado" value="São Paulo">São Paulo
+                    </div>
+
+                    <input id="gerarUm" type="button" name="gerarUm" value="Gerar">
+
+                    <div id="fraseUm" class="fonteResultados">
+
+                    </div>
+                </div>
+                
+                <!-- Quarta função -->
+                <div id="quartaFuncao">
+                    <h2>Nome e Área Profissional</h2>
+
+                    <p id="entradaNomeDois" class="centerObject">
+                        Escreva seu nome: <input id="nomeDois" type="text" name="nomeDois">
+                    </p>
+
+                    <div class="opcoes">
+                        <p>
+                            <input id="frontEnd" type="checkbox" name="frontEnd" value=""> Front-end
+                        </p>
+
+                        <p>
+                            <input id="designWeb" type="checkbox" name="designWeb" value=""> Design Web
+                        </p>
+
+                        <p>
+                            <input id="analistaDeSistemas" type="checkbox" name="analistaDeSistemas" value=""> Analista de Sistemas
+                        </p>
+
+                        <p>
+                            <input id="suporteTecnico" type="checkbox" name="suporteTecnico" value=""> Suporte Técnico
+                        </p>
+                    </div>
+
+                    <button id="gerarDois">Gerar</button>
+
+                    <div id="fraseDois">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script src="./funcoes.js"></script>
+    </body>
+</html>
